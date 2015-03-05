@@ -1,0 +1,76 @@
+// Derivative of FlexFloat GitHub project
+.grid:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+}
+
+@include bp($baby-bear) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: stretch;
+        justify-content: space-between;
+    }
+    
+    [class*="col-"] {
+        min-width: $min-width;
+        width: auto;
+    }
+
+    $i: 5;
+
+    @while $i <= 100 {
+        .col-#{$i} {
+            flex: #{$i} 0 0;
+        }
+        $i: $i + 5;
+    } 
+
+    .col-33 {
+        flex: 33.33 0 0;
+    }   
+
+    .col-66 {
+        flex: 66.66 0 0;
+    }
+
+    .col-equal {
+        flex: 1 0 0;
+    }
+
+    .col-spaced {
+        flex: 1 0 auto;
+    }
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-columns {
+    flex-direction: column;
+}
+
+.columns {
+    @include bp($baby-bear) {
+        column-count: 2;
+    }
+}
+
+
+
+
+
+
+

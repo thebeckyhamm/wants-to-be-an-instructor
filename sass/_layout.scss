@@ -1,0 +1,61 @@
+.bg-orange {
+    background-color:  $orange;
+    color: $white;
+    padding: .5em;
+}
+
+.bg-light-green {
+    background-color: $light-green;
+    color: $white;
+    padding: .5em;
+}
+
+
+.header [class*="bg-"] {
+    box-shadow: 0 0 4px 0 rgba($black, .2);
+}
+
+
+
+
+
+
+.box {
+    background-color: $white;
+    margin: $margin/2;
+    padding: $padding/2;
+    position: relative;
+    @include bp($baby-bear) {
+        margin: $margin;
+        padding: $padding;
+    }
+}
+
+.main {
+    margin: .5rem;
+    @include bp($baby-bear) {
+        margin: 1rem 3rem;
+    }
+}
+
+.down-arrow {
+    margin-bottom: 3rem;
+    &:after {
+        box-shadow: none;
+        color: #39474E;
+        content: "\25BC";
+        font-size: 3rem;
+        line-height: 1;
+        position: absolute;
+        right: 10%;
+        transition: $transition;
+        top: 103%;
+        z-index: -1;
+    }
+    &:hover:after {
+        box-shadow: 0 -22px 0px -14px $orange;
+        transform: translate3d(0, 6px, 0);
+    }
+}
+
+

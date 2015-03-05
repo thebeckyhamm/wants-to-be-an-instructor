@@ -1,0 +1,14 @@
+@import "sass/_normalize";
+@import "sass/_variables";  
+@import "sass/_typography";
+@import "sass/_grid";
+@import "sass/_badge"; 
+@import "sass/_helpers";
+@import "sass/_layout";
+
+
+body {
+    background-color: $light-gray;
+    font-size: 18px;
+}
+

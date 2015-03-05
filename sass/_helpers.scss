@@ -1,0 +1,25 @@
+/******------Helpers-------*******/
+
+.cursive {
+    font-family: $cursive;
+}
+
+.body-font {
+    font-family: $body-font;
+    font-weight: 300;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-larger {
+    font-size: 5em;
+}
+
+.md-and-up {
+    display: none;
+    @include bp($mama-bear) {
+        display: block;
+    }
+}

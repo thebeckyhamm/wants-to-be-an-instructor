@@ -1,0 +1,52 @@
+@import url(http://fonts.googleapis.com/css?family=Alfa+Slab+One|Source+Sans+Pro:300,700|Oswald|Playball);
+
+
+$heading-font: "Oswald", sans-serif;
+$body-font: "Source Sans Pro", sans-serif;
+$badge-font: "Alfa Slab One", Impact, serif;
+$cursive: "Playball", cursive;
+
+$dark-gray: #202F37;
+$blue-gray: #39474E;
+$light-gray: #E3E7E9;
+
+$white: white;
+$black: black;
+// $orange: #CD8236;
+// $mint: #6FBBB7;
+// $teal: #3BA0AC;
+// $brick: #B8584C;
+// $yellow: #D2B33A;
+// $green: #0DC67D;
+$orange: #F56217;
+$yellow: #F5CC17;
+$light-green: #A7CC15;
+$dark-green: #00875E;
+$blue: #04394E;
+
+
+$padding: 1em;
+$margin: 1em;
+
+// Grid variables
+$gutter: 1rem; 
+$min-width: 100px; 
+$baby-bear: 30em;
+$mama-bear: 45em;
+  
+
+
+$bg: $dark-gray;
+
+$transition: all .2s ease-in-out;
+
+
+
+
+@mixin bp($width) {
+    @media (min-width: $width) {
+        @content;       
+    }
+}
+
+
