@@ -25,3 +25,37 @@
     65% { opacity: 1; }
     100% { opacity: 1; }
 }
+
+.svg {
+    width: 100%;
+    svg {
+        width: 90%;
+        height: 90%;
+        max-height: 150px;
+        @include bp($mama-bear) {
+            max-height: 300px;
+        }
+    }
+}
+
+.svg #palm_tree_1_{
+    transform-origin: bottom;
+    animation: palmTree ease-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.svg #light{
+    animation: light ease-in;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    path {
+        fill: $marigold;
+    }
+}
+
+.svg #squiggle{
+    animation: squiggles ease-in;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}

@@ -10,7 +10,7 @@
     width: 100%;
 }
 
-@include bp($baby-bear) {
+@include bp($kid-bear) {
     .grid {
         display: flex;
         flex-wrap: wrap;
