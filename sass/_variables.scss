@@ -6,27 +6,18 @@ $body-font: "Source Sans Pro", sans-serif;
 $badge-font: "Alfa Slab One", Impact, serif;
 $cursive: "Playball", cursive;
 
-$dark-gray: #202F37;
-$blue-gray: #39474E;
-$light-gray: #E3E7E9;
 
 $white: white;
-$black: black;
-// $orange: #CD8236;
-// $mint: #6FBBB7;
-// $teal: #3BA0AC;
-// $brick: #B8584C;
-// $yellow: #D2B33A;
-// $green: #0DC67D;
+$black: #333;
+$light-gray: #efefef;
+
+$red: #ff3333;
 $orange: #F56217;
 $yellow: #F5CC17;
 $light-green: #A7CC15;
 $dark-green: #00875E;
 $blue: #04394E;
 
-
-$padding: 1em;
-$margin: 1em;
 
 // Grid variables
 $gutter: 1rem; 
@@ -36,7 +27,7 @@ $mama-bear: 45em;
   
 
 
-$bg: $dark-gray;
+$bg: $black;
 
 $transition: all .2s ease-in-out;
 

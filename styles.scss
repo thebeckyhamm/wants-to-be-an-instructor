@@ -1,5 +1,6 @@
 @import "sass/_normalize";
 @import "sass/_variables";  
+@import "sass/_animations";
 @import "sass/_typography";
 @import "sass/_grid";
 @import "sass/_badge"; 
@@ -8,7 +9,7 @@
 
 
 body {
-    background-color: $light-gray;
+    background-color: lighten($black, 90%);
     font-size: 18px;
 }
 

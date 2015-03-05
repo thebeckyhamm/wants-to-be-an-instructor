@@ -17,6 +17,10 @@
     font-size: 5em;
 }
 
+.text-smaller {
+    font-size: 80%;
+}
+
 .md-and-up {
     display: none;
     @include bp($mama-bear) {

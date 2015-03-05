@@ -17,7 +17,7 @@
         align-items: stretch;
         justify-content: space-between;
     }
-    
+
     [class*="col-"] {
         min-width: $min-width;
         width: auto;
@@ -47,20 +47,29 @@
     .col-spaced {
         flex: 1 0 auto;
     }
+
+    .flex-inline {
+        display: inline-flex;
+    }
+
+    .flex-center {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-columns {
+        flex-direction: column;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+
+    .align-center {
+        align-items: center;
+    }
 }
 
-.flex-inline {
-    display: inline-flex;
-}
-
-.flex-center {
-    align-items: center;
-    justify-content: center;
-}
-
-.flex-columns {
-    flex-direction: column;
-}
 
 .columns {
     @include bp($baby-bear) {

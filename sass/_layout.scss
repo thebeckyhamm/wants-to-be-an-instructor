@@ -1,18 +1,39 @@
-.bg-orange {
-    background-color:  $orange;
+.bg-gray {
+    background-color: $black;
     color: $white;
-    padding: .5em;
 }
 
-.bg-light-green {
-    background-color: $light-green;
+.bg-red {
+    background-color: $red;
     color: $white;
-    padding: .5em;
+}
+.bg-dark-green {
+    background-color: $dark-green;
+    color: $white;
+}
+.bg-blue {
+    background-color: $blue;
+    color: $white;
 }
 
 
-.header [class*="bg-"] {
-    box-shadow: 0 0 4px 0 rgba($black, .2);
+
+[class*="bg-"] {
+    box-shadow: inset 0 0 12px 0 rgba($black, .2);
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.section {
+    .section-heading {
+        font-size: 2rem;
+        text-transform: uppercase;
+    }
+    p, li, span {
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -21,13 +42,10 @@
 
 
 .box {
-    background-color: $white;
-    margin: $margin/2;
-    padding: $padding/2;
+    padding: 2rem;
     position: relative;
-    @include bp($baby-bear) {
-        margin: $margin;
-        padding: $padding;
+    @include bp($mama-bear) {
+        padding: 4rem 2rem;
     }
 }
 
@@ -38,24 +56,36 @@
     }
 }
 
-.down-arrow {
-    margin-bottom: 3rem;
-    &:after {
-        box-shadow: none;
-        color: #39474E;
-        content: "\25BC";
-        font-size: 3rem;
-        line-height: 1;
-        position: absolute;
-        right: 10%;
-        transition: $transition;
-        top: 103%;
-        z-index: -1;
-    }
-    &:hover:after {
-        box-shadow: 0 -22px 0px -14px $orange;
-        transform: translate3d(0, 6px, 0);
+.svg {
+    width: 100%;
+    svg {
+        width: 90%;
+        height: 90%;
+        max-height: 150px;
+        @include bp($mama-bear) {
+            max-height: 300px;
+        }
     }
 }
+
+.svg #palm_tree{
+    transform-origin: bottom;
+    animation: palmTree ease-in;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.svg #light{
+    animation: light ease-in;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+.svg #squiggle{
+    animation: squiggles ease-in;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
 
 

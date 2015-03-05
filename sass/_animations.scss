@@ -1,0 +1,27 @@
+@keyframes palmTree {
+    0% { transform: rotate(0deg); }
+    40% { transform: rotate(0deg); }
+    50% { transform: rotate(-10deg); }
+    60% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+    }
+
+@keyframes light {
+    0% { opacity: 0; }
+    49% { opacity: 0; }
+    50% { opacity: 1; }
+    60% { opacity: 1;}
+    61% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+@keyframes squiggles {
+    0% { opacity: 1; }
+    45% { opacity: 1; }
+    50% { opacity: 0; }
+    60% { opacity: 0;}
+    65% { opacity: 1; }
+    100% { opacity: 1; }
+}
