@@ -833,10 +833,13 @@ strong {
   text-align: center; }
 
 .text-larger {
-  font-size: 5em; }
+  font-size: 130%; }
 
 .text-smaller {
   font-size: 80%; }
+
+.no-margin {
+  margin: 0; }
 
 body {
   background-color: white; }
@@ -860,6 +863,12 @@ body {
       padding: 4rem 2rem; } }
   .box .box-heading {
     text-transform: uppercase; }
+
+.box-condensed {
+  padding: 1rem; }
+  @media (min-width: 45em) {
+    .box-condensed {
+      padding: 2rem 1rem; } }
 
 .main {
   margin: .5rem; }

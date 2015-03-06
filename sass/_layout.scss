@@ -31,6 +31,13 @@ body {
     }
 }
 
+.box-condensed {
+    padding: 1rem;
+    @include bp($mama-bear) {
+        padding: 2rem 1rem;
+    }
+}
+
 .main {
     margin: .5rem;
     @include bp($baby-bear) {
