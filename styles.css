@@ -443,10 +443,10 @@ td, th {
     fill: white; }
 
   50% {
-    fill: #FF8728; }
+    fill: #00A5B1; }
 
   60% {
-    fill: #FF8728; }
+    fill: #00A5B1; }
 
   65% {
     fill: white; }
@@ -462,10 +462,10 @@ td, th {
     fill: white; }
 
   50% {
-    fill: #FF8728; }
+    fill: #00A5B1; }
 
   60% {
-    fill: #FF8728; }
+    fill: #00A5B1; }
 
   65% {
     fill: white; }
@@ -515,7 +515,7 @@ td, th {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite; }
   .svg #light path {
-    fill: #FF8728; }
+    fill: #00A5B1; }
 
 .svg #main-beaker path:nth-child(3) {
   -webkit-animation: liquid ease-in;
@@ -576,7 +576,7 @@ ul {
   margin: 0 0 1em 0; }
 
 a {
-  color: #ff3333; }
+  color: #00A5B1; }
   a:hover {
     text-decoration: none; }
 
@@ -728,14 +728,14 @@ strong {
     -ms-flex-align: center;
     align-items: center; } }
 
-.red {
-  color: #ff3333; }
+.color1 {
+  color: #00A5B1; }
 
-.raspberry {
-  color: #AC005A; }
+.color2 {
+  color: #D98123; }
 
-.royal {
-  color: #3A3151; }
+.color3 {
+  color: #c94e43; }
 
 [class*="bg-"] {
   box-shadow: inset 0 0 12px 0 rgba(51, 51, 51, 0.2);
@@ -744,14 +744,14 @@ strong {
 .bg-gray {
   background-color: #333; }
 
-.bg-red {
-  background-color: #ff3333; }
+.bg-color1 {
+  background-color: #00A5B1; }
 
-.bg-raspberry {
-  background-color: #AC005A; }
+.bg-color2 {
+  background-color: #D98123; }
 
-.bg-royal {
-  background-color: #3A3151; }
+.bg-color3 {
+  background-color: #c94e43; }
 
 .bg-badge {
   background-color: #333;

@@ -1,13 +1,13 @@
-.red {
-    color: $red;
+.color1 {
+    color: $color1;
 }
 
-.raspberry {
-    color: $raspberry;
+.color2 {
+    color: $color2;
 }
 
-.royal {
-    color: $royal;
+.color3 {
+    color: $color3;
 }
     
 [class*="bg-"] {
@@ -19,14 +19,14 @@
     background-color: $black;
 }
 
-.bg-red {
-    background-color: $red;
+.bg-color1 {
+    background-color: $color1;
 }
 
-.bg-raspberry {
-    background-color: $raspberry;
+.bg-color2 {
+    background-color: $color2;
 }
 
-.bg-royal {
-    background-color: $royal;
+.bg-color3 {
+    background-color: $color3;
 }
