@@ -1,3 +1,6 @@
+body {
+    background-color: lighten($black, 90%);
+}
 
 .header h2 {
     margin: 0;
@@ -16,7 +19,6 @@
         }
     }
 }
-
 
 .box {
     padding: 2rem;

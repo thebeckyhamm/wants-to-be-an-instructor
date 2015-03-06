@@ -28,15 +28,8 @@ $mama-bear: 45em;
 
 $bg: $black;
 
-$transition: all .2s ease-in-out;
-
-
-
-
 @mixin bp($width) {
     @media (min-width: $width) {
         @content;       
     }
 }
-
-

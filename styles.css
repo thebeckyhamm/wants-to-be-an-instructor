@@ -537,6 +537,7 @@ td, th {
 
 body {
   font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.4; }
 
@@ -837,11 +838,8 @@ strong {
 .text-smaller {
   font-size: 80%; }
 
-.md-and-up {
-  display: none; }
-  @media (min-width: 45em) {
-    .md-and-up {
-      display: block; } }
+body {
+  background-color: white; }
 
 .header h2 {
   margin: 0; }
@@ -880,7 +878,3 @@ strong {
     position: relative;
     width: 40px;
     z-index: -1; }
-
-body {
-  background-color: white;
-  font-size: 18px; }

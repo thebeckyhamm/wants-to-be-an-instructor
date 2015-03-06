@@ -20,10 +20,3 @@
 .text-smaller {
     font-size: 80%;
 }
-
-.md-and-up {
-    display: none;
-    @include bp($mama-bear) {
-        display: block;
-    }
-}
