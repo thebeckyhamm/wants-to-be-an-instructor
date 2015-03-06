@@ -36,11 +36,21 @@
     }
 }
 
-.social-icons {
-    height: 40px;
-    margin: 1rem;
-    width: 40px;
+.social-icon {
+    display: inline-block;
+    margin: .5rem;
+    position: relative;
+    z-index: 1;
+    object {
+        height: 40px;
+        pointer-events: none;
+        position: relative;
+        width: 40px;
+        z-index: -1;
+    }
 }
+
+
 
 
 
